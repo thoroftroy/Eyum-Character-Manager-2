@@ -37,4 +37,10 @@ Will it support X hardware?
   The likley answer is yes, unless your computer is really old. I tried running it on an old windows xp era laptop and it couldn't do it at all beacuse it didn't support openGl 3, so I switched the renderer to Vulkan and it launched but creating save files seems to crash it. 
   And now that it runs in python it will support anything that runs python3. 
 
-Good luck and have fun!
+# TODO
+1. Add classes to the character creation section as well as their subclasses and level 1 features
+2. Add functionality for the therinthropes and halflings (they need a lot more manual effort than a normal race and it is currently impossible)
+3. Add level ups to the character manager wich follow the handbook and can save
+4. Add a combat simulation section where it allows you to choose two saved characters and simulate a fight to see who would win (runs mostly randomly)
+5. Make everything look much nicer with colors and good spacing and timing, all that good fluff
+6. Add a gui using some python gui library and make it easy to use
